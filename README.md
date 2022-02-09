@@ -1,2 +1,1 @@
-# javascript-test
-Created with CodeSandbox
+#  JavaScriptの基本的な構文
