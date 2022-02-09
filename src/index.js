@@ -72,4 +72,4 @@
 const func1 = function (str) {
   return str;
 };
-console.log(func1("func1ですあああ"));
+console.log(func1("func1です"));
