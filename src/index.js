@@ -69,7 +69,23 @@
 //   return str;
 // }
 
-const func1 = function (str) {
-  return str;
+// const func1 = function (str) {
+//   return str;
+// };
+// console.log(func1("func1です"));
+
+/**
+ * 分割代入
+ */
+const myProfile = {
+  name: "masato",
+  age: 26
 };
-console.log(func1("func1です"));
+
+// const message = `名前は${myProfile.name}です。年齢は${myProfile.age}歳です`;
+// console.log(message);
+
+const { name, age } = myProfile;
+
+const message = `名前は${name}です。年齢は${age}歳です`;
+console.log(message);
