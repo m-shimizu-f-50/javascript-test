@@ -77,15 +77,31 @@
 /**
  * 分割代入
  */
-const myProfile = {
-  name: "masato",
-  age: 26
-};
+// const myProfile = {
+//   name: "masato",
+//   age: 26
+// };
 
 // const message = `名前は${myProfile.name}です。年齢は${myProfile.age}歳です`;
 // console.log(message);
 
-const { name, age } = myProfile;
+// const { name, age } = myProfile;
 
-const message = `名前は${name}です。年齢は${age}歳です`;
-console.log(message);
+// const message = `名前は${name}です。年齢は${age}歳です`;
+// console.log(message);
+
+// const myProfile = ["ジャケ", 28];
+// const message3 = `名前は${myProfile[0]}です。年齢は${myProfile[1]}歳です`;
+// console.log(message3);
+
+// const [name, age] = myProfile;
+// const message4 = `名前は${name}です。年齢は${age}歳です`;
+// console.log(message4)
+
+/**
+ * デフォルト値、引数など
+ */
+const seyHello = (name = "ゲスト") => console.log(`こんにちは${name}`);
+
+// seyHello('masato')
+seyHello();
