@@ -186,8 +186,33 @@ const nameArr = ["田中", "山田", "清水"];
 // console.log(formattedNum);
 
 // サンプル②
-const checkSum = (num1, num2) => {
-  return num1 + num2 > 100 ? "100を超えています" : "許容範囲ないです";
-};
+// const checkSum = (num1, num2) => {
+//   return num1 + num2 > 100 ? "100を超えています" : "許容範囲ないです";
+// };
 
-console.log(checkSum(100, 30));
+// console.log(checkSum(100, 30));
+
+/**
+ * 論理演算子の本当の意味
+ */
+
+// const flag1 = true;
+// const flag2 = true;
+
+// if (flag1 || flag2) {
+//   console.log("１か２はtrueになります");
+// }
+
+// if (flag1 && flag2) {
+//   console.log("1も２もtrueになります");
+// }
+
+// ||は左側がfalseなら右側を返す
+// const num = null;
+// const fee = num || "金額は未設定です";
+// console.log(fee);
+
+// &&は左側がtrueなら右側を返す
+const num2 = 100;
+const fee = num2 && "何か設定されました";
+console.log(fee);
